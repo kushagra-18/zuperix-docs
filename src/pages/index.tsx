@@ -11,20 +11,41 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
+    <header className={clsx('hero hero--dark hero-grid', styles.heroBanner)} style={{ 
+      background: 'oklch(0.09 0 0)',
+      position: 'relative'
+    }}>
+      <div className="container" style={{ zIndex: 1 }}>
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          User Guide & <span style={{ color: 'var(--ifm-color-primary)' }}>API Reference</span>
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle" style={{ color: 'var(--ifm-color-secondary)' }}>
+          {siteConfig.tagline}
+        </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--primary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Explore the Docs
+          </Link>
+          <Link
+            className="button button--secondary button--lg margin-left--md"
+            to="/docs/api/authentication">
+            API Reference
           </Link>
         </div>
       </div>
+      {/* Subtle glow effect to match landing page */}
+      <div style={{
+        position: 'absolute',
+        top: 0,
+        left: '50%',
+        transform: 'translateX(-50%)',
+        width: '600px',
+        height: '400px',
+        background: 'radial-gradient(ellipse at center, oklch(0.55 0.2 262 / 0.15) 0%, transparent 70%)',
+        pointerEvents: 'none'
+      }} />
     </header>
   );
 }

@@ -21,10 +21,12 @@ const config: Config = {
   projectName: 'zuperix-docs', 
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   markdown: {
     format: 'mdx',
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
 
   i18n: {
@@ -127,7 +129,27 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Zuperix. Powered by AI.`,
+      copyright: `
+        <div class="footer-status-badge">
+          <a href="https://status.zuperix.com/" target="_blank" rel="noopener noreferrer" class="status-badge-pill">
+            <div class="status-badge-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <span class="status-badge-text">All services are online</span>
+          </a>
+        </div>
+        <div class="footer-bottom-container">
+          <div class="footer-copyright">
+            © ${new Date().getFullYear()} Zuperix. Open source under the GNU AGPL v3.
+          </div>
+          <div class="footer-legal-links">
+            <a href="/privacy" class="footer-legal-link">Privacy Policy</a>
+            <a href="/terms" class="footer-legal-link">Terms of Service</a>
+          </div>
+        </div>
+      `,
     },
     prism: {
       theme: prismThemes.github,

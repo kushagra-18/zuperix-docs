@@ -6,34 +6,43 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #8b5cf6;
+  --ifm-color-primary-dark: #7c3aed;
+  --ifm-color-primary-darker: #6d28d9;
+  --ifm-color-primary-darkest: #4c1d95;
+  --ifm-color-primary-light: #a78bfa;
+  --ifm-color-primary-lighter: #c4b5fd;
+  --ifm-color-primary-lightest: #ddd6fe;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --brand-color: oklch(0.55 0.2 262);
+  --grid-line-color: rgba(255, 255, 255, 0.05);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #a78bfa;
+  --ifm-color-primary-dark: #8b5cf6;
+  --ifm-color-primary-darker: #7c3aed;
+  --ifm-color-primary-darkest: #5b21b6;
+  --ifm-color-primary-light: #c4b5fd;
+  --ifm-color-primary-lighter: #ddd6fe;
+  --ifm-color-primary-lightest: #ede9fe;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --grid-line-color: rgba(255, 255, 255, 0.08);
+}
+
+.hero-grid {
+  background-image: linear-gradient(var(--grid-line-color) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line-color) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 50%, transparent 100%);
 }
 
 /* Make local search bar bigger */
 .navbar__search-input {
   width: 250px !important;
   font-size: 1.1rem !important;
-  padding: 0.6rem 1rem !important;
+  padding: 0.6rem 1.2rem 0.6rem 2.5rem !important;
   border-radius: 8px !important;
 }
 
@@ -41,4 +50,87 @@
   .navbar__search-input {
     width: 350px !important;
   }
+}
+
+/* Footer Status Badge & Layout Refinement */
+.footer-status-badge {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.status-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: rgba(var(--ifm-color-emphasis-100-rgb), 0.05);
+  transition: all 0.2s ease;
+  text-decoration: none !important;
+}
+
+.status-badge-pill:hover {
+  background: rgba(var(--ifm-color-emphasis-100-rgb), 0.1);
+  border-color: #10b981;
+}
+
+.status-badge-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #10b981;
+}
+
+.status-badge-text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--ifm-footer-link-color);
+}
+
+.status-badge-pill:hover .status-badge-text {
+  color: var(--ifm-footer-link-hover-color);
+}
+
+.footer__bottom {
+  border-top: 1px solid var(--ifm-footer-link-color);
+  padding-top: 1.5rem !important;
+}
+
+.footer-bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .footer-bottom-container {
+    flex-direction: row;
+  }
+}
+
+.footer-legal-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-legal-link {
+  font-size: 0.75rem;
+  color: var(--ifm-footer-link-color);
+  transition: color 0.2s;
+}
+
+.footer-legal-link:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
 }
