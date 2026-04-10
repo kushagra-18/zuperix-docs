@@ -1,20 +1,6 @@
 # Smart AI Features
 
-Zuperix uses artificial intelligence to do the heavy lifting for you. From automatic tagging to extracting text from images, our AI features help you stay organized without the manual effort.
-
-## 🏷️ Smart Tags (Gold Plan)
-
-Stop manually typing "mountain," "blue sky," or "outdoor." Zuperix uses deep learning models to "see" your images the moment they are uploaded.
-
-### How It Works
-- **Object Recognition**: Zuperix identifies over 1,000 distinct object categories (cars, landmarks, animals).
-- **Scene Detection**: Understands contexts like "wedding," "professional office," or "nature."
-- **Action Tags**: Recognizes what’s happening in a photo (e.g., "running," "shaking hands").
-
-### 🔍 Search Power
-Smart Tags are weighted in our search index, meaning if you search for "mountain," Zuperix will prioritize photos that the AI *knows* contain mountains, even if the filename is `DSC001.jpg`.
-
----
+Zuperix uses artificial intelligence to do the heavy lifting for you. From automatic transcription to facial recognition, our AI features help you stay organized without the manual effort.
 
 ## 👥 Facial Recognition (Silver+)
 
@@ -41,6 +27,17 @@ Found an asset you like, but want to see "something similar"? Zuperix uses **CLI
 Zuperix "reads" your documents so you don't have to.
 - **Full-Text Retrieval**: We extract text from PDFs, screenshots, and scanned images (OCR).
 - **Search Inside**: You can find a document just by searching for a sentence or keyword that appears on page 42. Use the `text:"your query"` shortcut to search within extracted text only.
+
+---
+
+## 🎙️ AI Video Transcription (Silver+)
+
+Unlock the spoken word within your video and audio library. Zuperix automatically transcribes your media files, making them fully searchable and accessible.
+
+- **Searchable Dialog**: Find exactly what was said in a meeting or video shoot. Searching for a specific phrase will highlight the exact moment it occurs.
+- **Instant Captions**: Generate industry-standard caption files (SRT, VTT) and plain text transcripts with a single click.
+- **Multi-format Export**: Download transcripts in various formats to use across your workflow.
+- **Flexible Quotas**: Need more time? Pay as you go with competitive overage rates ($0.9 per additional 100 minutes).
 
 ---
 

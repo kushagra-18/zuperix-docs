@@ -18,8 +18,9 @@ Zuperix maintains a tamper-proof record of all critical activities within your w
 | **Workflows** | `WORKFLOW_STARTED` | Recorded when an asset enters a review pipeline. |
 | **Workflows** | `WORKFLOW_COMPLETED`| Tracked when an asset is fully approved or rejected. |
 
-> [!NOTE]
-> Audit logs also capture the **IP Address** and **User Agent** for every action, providing a complete forensic trail for security teams.
+:::note IP & Forensic Trails
+Audit logs also capture the **IP Address** and **User Agent** for every action, providing a complete forensic trail for security teams.
+:::
 
 ![Audit Logs Dashboard Placeholder](TODO: [Screenshot of the audit logs table with columns for Action, User, and Date])
 

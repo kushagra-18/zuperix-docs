@@ -30,7 +30,9 @@ const sidebars: SidebarsConfig = {
       items: [
         'assets/uploading',
         'assets/organization',
+        'assets/vaults',
         'assets/metadata',
+        'assets/ratings',
         'assets/smart-features',
       ],
     },
@@ -47,6 +49,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'sharing/portals',
         'sharing/downloads',
+        'sharing/upload-links',
       ],
     },
     {

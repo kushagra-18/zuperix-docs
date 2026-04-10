@@ -1,7 +1,8 @@
 # Workflow Management 🏗️
 
-> [!CAUTION]
-> **Beta Feature**: Workflow Management is currently in Beta. Features and UI are subject to change.
+:::warning Beta Feature
+Workflow Management is currently in Beta. Features and UI are subject to change.
+:::
 
 Zuperix Workflow Management allows you to create automated approval pipelines for your assets. Instead of manually chasing stakeholders for approval, you can define "railroads" that every asset must travel before it is marked as **Approved**.
 
