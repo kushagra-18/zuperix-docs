@@ -53,5 +53,6 @@ Your contributors get a beautiful, clean interface that works perfectly on deskt
 
 ---
 
-> [!TIP]
-> Use Public Upload Links for creative briefs or vendor submissions. By pre-filling metadata like "Project Name" and "Status: Pending Review", you can even trigger automatic **Workflows** the moment a guest file is uploaded!
+:::tip Creative Brief Automation
+Use Public Upload Links for creative briefs or vendor submissions. By pre-filling metadata like "Project Name" and "Status: Pending Review", you can even trigger automatic **Workflows** the moment a guest file is uploaded!
+:::
