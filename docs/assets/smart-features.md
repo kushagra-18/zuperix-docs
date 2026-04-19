@@ -13,7 +13,7 @@ As soon as photos are uploaded, Zuperix’s localized computer vision model extr
 
 ---
 
-## 🧐 Visual Similarity (Silver+)
+## 🧐 Visual Similarity (Gold Plan)
 
 Found an asset you like, but want to see "something similar"? Zuperix uses **CLIP (Contrastive Language-Image Pre-training)** embeddings to compare the "visual essence" of your files.
 

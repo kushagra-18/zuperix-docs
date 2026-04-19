@@ -61,15 +61,15 @@ Zuperix features are distributed across three main plans to grow with your team.
 - **Users**: Up to 25
 - **Storage**: 500GB Cloud Storage
 - **Everything in Bronze, plus**:
-    - **Smart AI Search**: Natural language prompts to find visual concepts.
     - **Facial Recognition**: Automatically group people in your photos.
     - **Public API & Webhooks**: Programmatic access to your assets.
 
-### 🥇 Gold Plan ($50/mo)
+### 🥇 Gold Plan ($99/mo)
 *Powerful features for growing organizations.*
 - **Users**: Unlimited
 - **Storage**: 2TB Cloud Storage
 - **Everything in Silver, plus**:
+    - **Smart AI Search**: Natural language prompts to find visual concepts.
     - **Smart Tags**: AI automatically tags your assets upon upload.
     - **Advanced Search**: Relevance scoring and priority matching.
     - **Custom Branding**: Whitelabel your portals with your own logo and colors.

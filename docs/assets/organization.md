@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+---
+
+import MacWindow from '@site/src/components/MacWindow';
+
 # Organizing Your Assets
 
 Don't let your workspace become a mess. Zuperix gives you two powerful tools to organize your files: **Categories** and **Collections**.
@@ -40,4 +46,8 @@ Beyond your manual organization, Zuperix automatically layers "intelligence" ont
 - **Custom Metadata**: Add business-critical fields like `Status`, `License Expiry`, or `Project Code`.
 - **Search Everywhere**: Every category, collection, and tag is indexed in the [Smart Search bar](../search/smart-search).
 
-![Metadata Panel Placeholder](TODO: [Screenshot of the asset detail panel showing the intersection of Categories, Collections, and Tags])
+
+<MacWindow url="dashboard.zuperix.com">
+  ![Zuperix Asset Details](../media/asset_details_intersections.png)
+</MacWindow>
+

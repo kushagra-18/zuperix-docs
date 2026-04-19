@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import MacWindow from '@site/src/components/MacWindow';
+
 # Welcome to Zuperix
 
 Zuperix is an AI-powered Digital Asset Management (DAM) system designed to help you organize, find, and share your digital treasures with ease. Whether you are a solo creator or part of a global team, Zuperix provides the tools you need to stay organized and efficient.
@@ -25,7 +27,11 @@ Ready to dive in? Here’s your 3-step roadmap to organization:
 2.  **Upload & Process**: Experience the [3-Step Upload Pipeline](./assets/uploading) which handles files of any size with ease.
 3.  **Search & Discover**: Try searching for ["a red car in the rain"](./search/smart-search) to see the neural engine in action.
 
-![Zuperix Dashboard Placeholder](TODO: [Top-level annotated screenshot of the dashboard.zuperix.com interface])
+<MacWindow url="dashboard.zuperix.com">
+  ![Zuperix Dashboard](./media/dashboard_main.png)
+</MacWindow>
+
+
 
 ## Need Help?
 

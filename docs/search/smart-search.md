@@ -2,7 +2,7 @@
 
 Zuperix offers two ways to find what you're looking for: **Literal Keyword Matching** and **AI-Powered Semantic Discovery**.
 
-## 🧠 Smart AI Search (Silver+)
+## 🧠 Smart AI Search (Gold Plan)
 
 Traditional search engines only look for exact words. Zuperix's AI (powered by CLIP embeddings) understands **visual concepts**.
 
@@ -37,7 +37,7 @@ You can combine shortcuts using **AND**, **OR**, **NOT**, and **parentheses ()**
 
 ---
 
-## 📸 Visual Search (Silver+)
+## 📸 Visual Search (Gold Plan)
 
 Found a great photo and need more like it? Use the **Visual Similarity** search.
 

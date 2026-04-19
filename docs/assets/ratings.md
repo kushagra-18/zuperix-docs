@@ -35,5 +35,5 @@ Ratings are integrated directly into our [Search Engine](../search/smart-search)
 ---
 
 :::important Collaborative Intelligence
-Ratings are a **Collaborative Tool**. They work best when your entire team uses them consistently. High-rated assets aren't just for show—they prioritize those files in our AI-powered **Visual Similarity** and **Smart Search** algorithms!
+Ratings are a **Collaborative Tool**. They work best when your entire team uses them consistently. High-rated assets aren't just for show, they prioritize those files in our AI-powered **Visual Similarity** and **Smart Search** algorithms!
 :::

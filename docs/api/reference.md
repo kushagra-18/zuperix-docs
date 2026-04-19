@@ -45,7 +45,7 @@ Zuperix primarily supports **POST** requests for search, as it allows for deeply
 | `limit` | `number` | The maximum number of results to return (max 500). |
 | `page` | `number` | The page number for pagination. |
 | `mime_type` | `string[]` | Filter by file types (e.g., `image/jpeg`). |
-| `is_semantic` | `boolean` | If true, uses AI visual similarity matching (Silver/Gold plans). |
+| `is_semantic` | `boolean` | If true, uses AI visual similarity matching (Gold Plan). |
 
 ### 10 Search Examples (Simple to Complex)
 

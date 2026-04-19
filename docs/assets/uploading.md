@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+---
+
+import MacWindow from '@site/src/components/MacWindow';
+
 # Uploading Assets
 
 Adding your files to Zuperix is simple and fast. We support a wide variety of formats, from simple images to complex 3D models.
@@ -9,7 +15,9 @@ Zuperix gives you two easy ways to get your files in:
 1. **Drag and Drop**: Simply drag files from your computer and drop them anywhere on the dashboard.
 2. **Upload Button**: Click the `Upload` button in the top right to select files manually.
 
-![Upload Button Placeholder](TODO: [Screenshot of the upload button and drag & drop area])
+<MacWindow url="dashboard.zuperix.com">
+  ![Zuperix Uploading](../media/upload_modal.png)
+</MacWindow>
 
 ## ⚡ Scaling the Upload Pipeline
 

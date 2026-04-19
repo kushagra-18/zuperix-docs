@@ -134,3 +134,85 @@
   color: var(--ifm-color-primary);
   text-decoration: none;
 }
+
+/* Mac Window Wrapper */
+.mac-window {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  border: 1px solid #1e1e1e;
+  background: #0b0b0b;
+  margin: 1.5rem 0;
+}
+
+.mac-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background: #111;
+  border-bottom: 1px solid #222;
+}
+
+.mac-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.mac-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.mac-dot.red { background: #ff5f56; }
+.mac-dot.yellow { background: #ffbd2e; }
+.mac-dot.green { background: #27c93f; }
+
+.mac-content img {
+  display: block;
+  width: 100%;
+}
+
+.mac-address-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 4px 12px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.mac-address-bar span {
+  color: #888;
+  font-size: 11px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.mac-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #27c93f;
+}
+
+/* Match the screenshot detail */
+.mac-header {
+    justify-content: space-between;
+}
+
+.mac-header > div {
+    flex: 1;
+}
+
+.mac-header > .mac-dots {
+    flex: 0 0 80px;
+}
+
+.mac-header > .mac-spacer {
+    flex: 0 0 80px;
+}
