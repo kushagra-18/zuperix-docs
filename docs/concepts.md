@@ -10,11 +10,11 @@ Zuperix is more than just a folder on your computer. Here are the simple buildin
 
 A **Workspace** is like a home for your projects. Everything in Zuperix belongs to a workspace. You can have one for your personal photography, another for your business, and a third for a specific client. 
 
-*(Note: The ability to create multiple Workspaces is available exclusively on the **Gold Plan**. Bronze and Silver plans are limited to a single workspace.)*
 
 - **Isolation**: Files in one workspace don't mix with others.
 - **Collaboration**: Invite team members to specific workspaces.
 - **Organization**: Each workspace has its own categories and collections.
+- **Unlimited**: All plans support creating unlimited workspaces to support your growing scale.
 
 ## 🖼️ Assets
 
@@ -48,32 +48,34 @@ A **Portal** is a public window into your workspace. It's a beautiful, customiza
 
 ## 💎 Pricing Tiers & Feature Availability
 
-Zuperix features are distributed across three main plans to grow with your team.
+Zuperix features are distributed across three main plans to grow with your team. Every plan includes our **Core AI Suite** including face detection, RBAC roles, and version control.
 
 ### 🥉 Bronze Plan ($10/mo)
 *Simple and affordable for individuals.*
-- **Users**: Up to 5
-- **Storage**: 50GB Cloud Storage
-- **Features**: Basic Search, Workflow Automation, Public Sharing Portals, OCR & Text Extraction.
+- **Users**: Unlimited
+- **Workspaces**: 1
+- **Storage**: 100GB Cloud Storage
+- **Features**: Essential Search, Face Detection & AI Tagging, RBAC Roles, Asset Versioning, Public Sharing Portals, OCR & Text Extraction.
 
 ### 🥈 Silver Plan ($25/mo)
 *Great for small teams looking to stay organized.*
-- **Users**: Up to 25
+- **Users**: Unlimited
+- **Workspaces**: 3
 - **Storage**: 500GB Cloud Storage
 - **Everything in Bronze, plus**:
-    - **Facial Recognition**: Automatically group people in your photos.
-    - **Public API & Webhooks**: Programmatic access to your assets.
+    - **Advanced Search**: Natural language prompts to find visual concepts.
+    - **Public API, Webhooks & MCP**: Programmatic access and AI server integration.
 
 ### 🥇 Gold Plan ($99/mo)
 *Powerful features for growing organizations.*
 - **Users**: Unlimited
+- **Workspaces**: Unlimited
 - **Storage**: 2TB Cloud Storage
 - **Everything in Silver, plus**:
-    - **Smart AI Search**: Natural language prompts to find visual concepts.
-    - **Smart Tags**: AI automatically tags your assets upon upload.
-    - **Advanced Search**: Relevance scoring and priority matching.
+    - **Advanced Integrations**: Connect with Enterprise tools like Slack and Discord.
     - **Custom Branding**: Whitelabel your portals with your own logo and colors.
     - **SSO Authentication**: Secure sign-on for your entire team.
+    - **Priority Support**: Business hours priority email and chat support.
 
 ---
 

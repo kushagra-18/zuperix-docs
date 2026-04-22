@@ -2,14 +2,14 @@
 
 Webhooks are a powerful way to keep your external systems in perfect sync with your Zuperix workspace. Instead of constantly polling the API to check if a new asset has been uploaded, Zuperix will proactively send an HTTP POST request to a URL of your choosing the moment an event happens.
 
-*(Webhooks are available exclusively on the Silver and Gold plans)*
+*(Webhooks are available on all plans)*
 
 ## 🔗 How It Works
 
 When you create a Webhook in Zuperix, you define:
 1. **The URL**: Where Zuperix should send the HTTP POST request (e.g., `https://api.yourcompany.com/webhooks/zuperix`).
 2. **The Events**: Which specific actions should trigger the webhook.
-3. **The Type**: Zuperix supports `generic` raw JSON webhooks, as well as pre-formatted webhooks for `slack` and `discord`.
+3. **The Type**: Zuperix supports `generic` raw JSON webhooks, `slack`, `discord`, and `mcp-server`.
 
 ## 🎯 Destination Types
 
@@ -17,6 +17,9 @@ Zuperix allows you to send event data to different types of endpoints, automatic
 
 ### 🌐 Generic Webhook
 Sends a standard JSON payload containing the event type and the full asset data. Use this for your own custom backend integrations or internal tools.
+
+### 🤖 MCP Server Access
+Zuperix can directly communicate with your **Model Context Protocol (MCP)** server, allowing AI agents to stay in sync with your asset library changes in real-time. Use this to trigger automated AI workflows or context updates.
 
 ### 💬 Slack & Discord
 If you select Slack or Discord as your destination, Zuperix transforms the data into a beautiful, rich-text message (using Block Kit for Slack or specialized Embeds for Discord).
