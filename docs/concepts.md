@@ -63,7 +63,6 @@ Zuperix features are distributed across three main plans to grow with your team.
 - **Workspaces**: 3
 - **Storage**: 500GB Cloud Storage
 - **Everything in Bronze, plus**:
-    - **Facial Recognition** 
     - **Public API, Webhooks & MCP**: Programmatic access and AI server integration.
 
 ### 🥇 Gold Plan ($99/mo)
@@ -73,6 +72,7 @@ Zuperix features are distributed across three main plans to grow with your team.
 - **Storage**: 1TB Cloud Storage
 - **Everything in Silver, plus**:
     - **Advanced Integrations**: Connect with Enterprise tools like Slack and Discord.
+    - **Facial Recognition**: Identify and tag faces in images. 
     - **AI Search**: Search using natural language prompts.
     - **Custom Branding**: Whitelabel your portals with your own logo and colors.
     - **SSO Authentication**: Secure sign-on for your entire team.
