@@ -2,9 +2,10 @@
 
 Zuperix uses artificial intelligence to do the heavy lifting for you. From automatic transcription to facial recognition, our AI features help you stay organized without the manual effort.
 
+
 ## 👥 Facial Recognition (Silver+)
 
-Managing photography of teams, events, or marketing shoots is faster when Zuperix knows who's who.
+Take your management a step further by identifying *who* is in your photos. Managing photography of teams, events, or marketing shoots is faster when Zuperix knows your people.
 
 ### 👤 Automatic People Grouping
 As soon as photos are uploaded, Zuperix’s localized computer vision model extracts distinct facial signatures.

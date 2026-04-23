@@ -54,8 +54,8 @@ Zuperix features are distributed across three main plans to grow with your team.
 *Simple and affordable for individuals.*
 - **Users**: Unlimited
 - **Workspaces**: 1
-- **Storage**: 100GB Cloud Storage
-- **Features**: Essential Search, Face Detection & AI Tagging, RBAC Roles, Asset Versioning, Public Sharing Portals, OCR & Text Extraction.
+- **Storage**: 50GB Cloud Storage
+- **Features**: Essential Search, RBAC Roles, Asset Versioning, Public Sharing Portals
 
 ### 🥈 Silver Plan ($25/mo)
 *Great for small teams looking to stay organized.*
@@ -63,16 +63,17 @@ Zuperix features are distributed across three main plans to grow with your team.
 - **Workspaces**: 3
 - **Storage**: 500GB Cloud Storage
 - **Everything in Bronze, plus**:
-    - **Advanced Search**: Natural language prompts to find visual concepts.
+    - **Facial Recognition** 
     - **Public API, Webhooks & MCP**: Programmatic access and AI server integration.
 
 ### 🥇 Gold Plan ($99/mo)
 *Powerful features for growing organizations.*
 - **Users**: Unlimited
 - **Workspaces**: Unlimited
-- **Storage**: 2TB Cloud Storage
+- **Storage**: 1TB Cloud Storage
 - **Everything in Silver, plus**:
     - **Advanced Integrations**: Connect with Enterprise tools like Slack and Discord.
+    - **AI Search**: Search using natural language prompts.
     - **Custom Branding**: Whitelabel your portals with your own logo and colors.
     - **SSO Authentication**: Secure sign-on for your entire team.
     - **Priority Support**: Business hours priority email and chat support.
