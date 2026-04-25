@@ -38,6 +38,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Integrations',
+      items: [
+        'integrations/google-drive',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Search & Discovery',
       items: [
         'search/smart-search',
