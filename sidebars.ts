@@ -41,6 +41,7 @@ const sidebars: SidebarsConfig = {
       label: 'Integrations',
       items: [
         'integrations/google-drive',
+        'integrations/canva',
       ],
     },
     {
